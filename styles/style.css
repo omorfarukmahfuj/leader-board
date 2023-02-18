@@ -21,8 +21,7 @@ main {
     margin-bottom: 30px;
 }
 
-/* Top Players & Top Blog Style */
-/* Top Players Style */
+
 .section {
     background-color: #FFFFFF;
     border-radius: 5px;
@@ -31,6 +30,8 @@ main {
     margin-bottom: 25px;
 }
 
+/* Top Players & Top Blog Style */
+/* Top Players Style */
 .players {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -95,4 +96,91 @@ main {
 .blog-info p a {
     color: #562EFF;
     text-decoration: none;
+}
+
+/* Latest Courses Style */
+.courses {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.course {
+    padding: 12px;
+    box-shadow: 0px 5.34229px 13.3557px rgba(0, 0, 0, 0.05);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.course-banner img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.course-title {
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #1E1E1E;
+    margin-bottom: 7px;
+}
+
+.course-instructor {
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-size: 14px;
+    color: #ED6B4F;
+    margin-bottom: 16px;
+}
+
+.course-info {
+    display: flex;
+    align-items: center;
+}
+
+.fa-star {
+    font-size: 12px;
+}
+
+.fa-star.filled {
+    color: #FFC014;
+}
+
+.fa-star.empty {
+    color: #AEAEAE;
+}
+
+
+.course-info span {
+    font-family: 'Poppins';
+    font-size: 14px;
+    color: #A2A2A2;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.course-duration {
+    display: flex;
+    align-items: center;
+    background-color: #FFE4E8;
+    border-radius: 14px;
+    padding: 5px;
+}
+
+.fa-clock {
+    color: #ED6B4F;
+    font-size: 16px;
+    margin-right: 7px;
+}
+
+.course-duration p {
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 14px;
+    color: #ED6B4F;
+    margin: 0;
 }
