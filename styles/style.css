@@ -30,6 +30,50 @@ main {
     margin-bottom: 25px;
 }
 
+/* Nav Style */
+nav {
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 36px;
+}
+
+.nav-logo,
+.nav-item,
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.nav-logo img {
+    width: 40px;
+    height: 40px;
+    margin-right: 16px;
+}
+
+.nav-logo p {
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+
+.nav-item ul li {
+    list-style: none;
+    font-family: 'Poppins';
+    font-size: 16px;
+    color: #FFFFFF;
+    margin-right: 36px;
+}
+
+.nav-item img {
+    width: 51px;
+    height: 51px;
+}
+
 /* Top Players & Top Blog Style */
 /* Top Players Style */
 .players {
@@ -98,7 +142,7 @@ main {
     text-decoration: none;
 }
 
-/* Latest Courses Style */
+/* Latest Course Style */
 .courses {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
